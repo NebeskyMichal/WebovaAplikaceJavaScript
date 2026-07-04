@@ -1,6 +1,3 @@
-# WebovaAplikaceJavaScript
-Semestrální projekt z webových technologií na VŠE FIS. Aplikace slouží k vyhledávání her přes RAWG API, sledování postupu, hodnocení a správě osobního herního backlogu.
-
 # My Gaming Backlog
 
 Klientská webová aplikace pro evidenci a správu osobní sbírky videoher. Využívá RAWG API a localStorage. Vytvořeno jako semestrální práce v rámci studia aplikované informatiky na VŠE FIS.
@@ -20,3 +17,7 @@ Klientská webová aplikace pro evidenci a správu osobní sbírky videoher. Vyu
 * **Frontend:** HTML5, CSS3, JavaScript (ES6)
 * **Knihovny:** jQuery, SweetAlert2
 * **API:** [RAWG API](https://rawg.io/apidocs) pro získávání herních dat
+
+## Security Note (API Key)
+
+V repozitáři je záměrně ponechán bezplatný (free-tier) API klíč pro službu RAWG, aby byla aplikace po stažení (či na živé ukázce) okamžitě plně funkční pro účely ukázky. V případě jeho propadnutí je nutné klíč změnit ve skriptu `assets/js/app.js`, konkrétně u proměnné `App.API_KEY`.
